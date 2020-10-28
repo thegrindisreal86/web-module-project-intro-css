@@ -1,0 +1,197 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	
+	/* font-family: inherit; */
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	/* outline: 0; */
+	/* padding: 0; */
+	   border: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	/*background: white;*/
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	/* text-align: left; */
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+    }
+
+.container{
+    width: 100%;
+    border: 0px solid black;
+    
+}
+
+/* This is my work below */
+
+html{
+    font-size:62.5%;
+  }
+
+a {
+ margin-left: 50px;
+}
+
+p {
+    text-align: center;
+    vertical-align: auto;
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+.links {
+    
+    display: inline-block;
+    width: 99%;
+    height: 20vh;
+    font-family: 'Roboto Mono', monospace;
+    text-align:center;
+}
+.links1 {
+    
+    display: inline-block;
+    width: 99%;
+    text-align: center;
+    vertical-align: center;
+    height: 20vh;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #F9E7DC;
+}
+
+.circle{
+    border-radius:50%;
+    width: 25%;
+    
+}
+
+.center{
+    width: 15%;
+    height: 40vh;
+}
+
+.center2{
+    width: 15%
+    height: 40vh;
+}
+
+.section{
+    display:inline-block;
+    width: 50%;
+    height: 300px;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+    text-align: center;
+  
+}
+
+h1{
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Chelsea Market', cursive;
+}
+.section2{
+
+    width: 85%;
+    height: 300px;
+    align-items: center;
+    margin: 50px;
+    background-color: #DDB9A3;
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Roboto Mono', monospace;
+    
+    
+}
+
+.footer{
+    width: 99%;
+    height: 40vh;
+    
+}
+
+.fire{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+}
+
+.bus{
+    
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+}
+    
+.button1{
+
+    display:inline-block;
+    width:200px;
+    text-align:center;
+    padding:2% 0;
+    border-radius:10px;
+    margin:0 auto;
+    background-color: #FF764E;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+    
+}
+
+.button2{
+
+    background-color: #5ED3EB;
+    display:inline-block;
+    width:200px;
+    text-align:center;
+    padding:2% 0;
+    border-radius:10px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+}
+
+.button3{
+
+    display:inline-block;
+    background-color: #FFCD69;
+    width: 200px;
+    text-align:center;
+    padding:2% 0;
+    border-radius:10px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+}
